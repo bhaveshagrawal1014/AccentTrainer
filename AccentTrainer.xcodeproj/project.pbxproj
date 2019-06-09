@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5725BC8A1CBE7C6B007988BC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5725BC891CBE7C6B007988BC /* ResultsViewController.swift */; };
+		5725BC8C1CBEDF3B007988BC /* PracticeQuizModeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5725BC8B1CBEDF3B007988BC /* PracticeQuizModeController.swift */; };
+		5725BC8E1CBEDF5E007988BC /* TimetrialQuizModeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5725BC8D1CBEDF5E007988BC /* TimetrialQuizModeController.swift */; };
+		573465C31CA70E2300B2A3CB /* HighscoresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573465C21CA70E2300B2A3CB /* HighscoresController.swift */; };
+		57568BBB1CC78F4A00F44527 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57568BBA1CC78F4A00F44527 /* Extensions.swift */; };
+		57568BBF1CC790D700F44527 /* MuseoSans_500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57568BBD1CC790D700F44527 /* MuseoSans_500.otf */; };
+		57568BC11CC790D700F44527 /* MuseoSans_700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57568BBE1CC790D700F44527 /* MuseoSans_700.otf */; };
+		578B5FD81CD28137005CE0CA /* Persister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578B5FD71CD28137005CE0CA /* Persister.swift */; };
+		57C11ECE1CC3AFDD00777FF9 /* Highscores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C11ECD1CC3AFDD00777FF9 /* Highscores.swift */; };
+		64B33F231C9D4A6D006C3510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B33F221C9D4A6D006C3510 /* AppDelegate.swift */; };
+		64B33F251C9D4A6D006C3510 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B33F241C9D4A6D006C3510 /* MainViewController.swift */; };
+		64B33F281C9D4A6D006C3510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B33F261C9D4A6D006C3510 /* Main.storyboard */; };
+		64B33F2A1C9D4A6D006C3510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B33F291C9D4A6D006C3510 /* Assets.xcassets */; };
+		64B33F2D1C9D4A6D006C3510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B33F2B1C9D4A6D006C3510 /* LaunchScreen.storyboard */; };
+		64B33F431C9D4ABB006C3510 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B33F421C9D4ABB006C3510 /* CustomButton.swift */; };
+		64B33F451C9D4AEB006C3510 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B33F441C9D4AEB006C3510 /* CustomViewController.swift */; };
+		64B33F471C9D4BB8006C3510 /* QuestionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B33F461C9D4BB8006C3510 /* QuestionGenerator.swift */; };
+		64B33F491C9D4BDF006C3510 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B33F481C9D4BDF006C3510 /* QuestionViewController.swift */; };
+		64B33F4B1C9D4BFC006C3510 /* QuizChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B33F4A1C9D4BFC006C3510 /* QuizChoice.swift */; };
+		64B33F4D1C9D4C19006C3510 /* QuizOptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B33F4C1C9D4C19006C3510 /* QuizOptionsController.swift */; };
+		64B33F4F1C9D4E38006C3510 /* QuestionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B33F4E1C9D4E38006C3510 /* QuestionSet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5725BC891CBE7C6B007988BC /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		5725BC8B1CBEDF3B007988BC /* PracticeQuizModeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PracticeQuizModeController.swift; sourceTree = "<group>"; };
+		5725BC8D1CBEDF5E007988BC /* TimetrialQuizModeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetrialQuizModeController.swift; sourceTree = "<group>"; };
+		573465C21CA70E2300B2A3CB /* HighscoresController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoresController.swift; sourceTree = "<group>"; };
+		57568BBA1CC78F4A00F44527 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		57568BBD1CC790D700F44527 /* MuseoSans_500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_500.otf; sourceTree = "<group>"; };
+		57568BBE1CC790D700F44527 /* MuseoSans_700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_700.otf; sourceTree = "<group>"; };
+		578B5FD71CD28137005CE0CA /* Persister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persister.swift; sourceTree = "<group>"; };
+		57C11ECD1CC3AFDD00777FF9 /* Highscores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highscores.swift; sourceTree = "<group>"; };
+		64B33F1F1C9D4A6D006C3510 /* AccentTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccentTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B33F221C9D4A6D006C3510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64B33F241C9D4A6D006C3510 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		64B33F271C9D4A6D006C3510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64B33F291C9D4A6D006C3510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64B33F2C1C9D4A6D006C3510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64B33F2E1C9D4A6D006C3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B33F421C9D4ABB006C3510 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		64B33F441C9D4AEB006C3510 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		64B33F461C9D4BB8006C3510 /* QuestionGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionGenerator.swift; sourceTree = "<group>"; };
+		64B33F481C9D4BDF006C3510 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		64B33F4A1C9D4BFC006C3510 /* QuizChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizChoice.swift; sourceTree = "<group>"; };
+		64B33F4C1C9D4C19006C3510 /* QuizOptionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizOptionsController.swift; sourceTree = "<group>"; };
+		64B33F4E1C9D4E38006C3510 /* QuestionSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionSet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64B33F1C1C9D4A6D006C3510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57568BBC1CC790B200F44527 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				57568BBD1CC790D700F44527 /* MuseoSans_500.otf */,
+				57568BBE1CC790D700F44527 /* MuseoSans_700.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		57764F9B1CAD711C0026411C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64B33F241C9D4A6D006C3510 /* MainViewController.swift */,
+				64B33F481C9D4BDF006C3510 /* QuestionViewController.swift */,
+				5725BC8B1CBEDF3B007988BC /* PracticeQuizModeController.swift */,
+				5725BC8D1CBEDF5E007988BC /* TimetrialQuizModeController.swift */,
+				64B33F4C1C9D4C19006C3510 /* QuizOptionsController.swift */,
+				64B33F441C9D4AEB006C3510 /* CustomViewController.swift */,
+				5725BC891CBE7C6B007988BC /* ResultsViewController.swift */,
+				573465C21CA70E2300B2A3CB /* HighscoresController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57764F9C1CAD713B0026411C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64B33F421C9D4ABB006C3510 /* CustomButton.swift */,
+				64B33F461C9D4BB8006C3510 /* QuestionGenerator.swift */,
+				64B33F4E1C9D4E38006C3510 /* QuestionSet.swift */,
+				64B33F4A1C9D4BFC006C3510 /* QuizChoice.swift */,
+				57C11ECD1CC3AFDD00777FF9 /* Highscores.swift */,
+				578B5FD71CD28137005CE0CA /* Persister.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		64B33F161C9D4A6C006C3510 = {
+			isa = PBXGroup;
+			children = (
+				64B33F211C9D4A6D006C3510 /* AccentTrainer */,
+				64B33F201C9D4A6D006C3510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64B33F201C9D4A6D006C3510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64B33F1F1C9D4A6D006C3510 /* AccentTrainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64B33F211C9D4A6D006C3510 /* AccentTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				57568BBC1CC790B200F44527 /* Fonts */,
+				57764F9C1CAD713B0026411C /* Models */,
+				57764F9B1CAD711C0026411C /* ViewControllers */,
+				64B33F291C9D4A6D006C3510 /* Assets.xcassets */,
+				64B33F221C9D4A6D006C3510 /* AppDelegate.swift */,
+				64B33F261C9D4A6D006C3510 /* Main.storyboard */,
+				64B33F2B1C9D4A6D006C3510 /* LaunchScreen.storyboard */,
+				64B33F2E1C9D4A6D006C3510 /* Info.plist */,
+				57568BBA1CC78F4A00F44527 /* Extensions.swift */,
+			);
+			path = AccentTrainer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64B33F1E1C9D4A6D006C3510 /* AccentTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B33F3C1C9D4A6D006C3510 /* Build configuration list for PBXNativeTarget "AccentTrainer" */;
+			buildPhases = (
+				64B33F1B1C9D4A6D006C3510 /* Sources */,
+				64B33F1C1C9D4A6D006C3510 /* Frameworks */,
+				64B33F1D1C9D4A6D006C3510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccentTrainer;
+			productName = accentTrainingApp;
+			productReference = 64B33F1F1C9D4A6D006C3510 /* AccentTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64B33F171C9D4A6C006C3510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = k;
+				TargetAttributes = {
+					64B33F1E1C9D4A6D006C3510 = {
+						CreatedOnToolsVersion = 7.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 64B33F1A1C9D4A6C006C3510 /* Build configuration list for PBXProject "AccentTrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64B33F161C9D4A6C006C3510;
+			productRefGroup = 64B33F201C9D4A6D006C3510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64B33F1E1C9D4A6D006C3510 /* AccentTrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64B33F1D1C9D4A6D006C3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B33F2D1C9D4A6D006C3510 /* LaunchScreen.storyboard in Resources */,
+				57568BC11CC790D700F44527 /* MuseoSans_700.otf in Resources */,
+				64B33F2A1C9D4A6D006C3510 /* Assets.xcassets in Resources */,
+				57568BBF1CC790D700F44527 /* MuseoSans_500.otf in Resources */,
+				64B33F281C9D4A6D006C3510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64B33F1B1C9D4A6D006C3510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5725BC8A1CBE7C6B007988BC /* ResultsViewController.swift in Sources */,
+				64B33F4B1C9D4BFC006C3510 /* QuizChoice.swift in Sources */,
+				5725BC8E1CBEDF5E007988BC /* TimetrialQuizModeController.swift in Sources */,
+				64B33F251C9D4A6D006C3510 /* MainViewController.swift in Sources */,
+				57C11ECE1CC3AFDD00777FF9 /* Highscores.swift in Sources */,
+				64B33F471C9D4BB8006C3510 /* QuestionGenerator.swift in Sources */,
+				64B33F491C9D4BDF006C3510 /* QuestionViewController.swift in Sources */,
+				573465C31CA70E2300B2A3CB /* HighscoresController.swift in Sources */,
+				64B33F231C9D4A6D006C3510 /* AppDelegate.swift in Sources */,
+				64B33F431C9D4ABB006C3510 /* CustomButton.swift in Sources */,
+				57568BBB1CC78F4A00F44527 /* Extensions.swift in Sources */,
+				578B5FD81CD28137005CE0CA /* Persister.swift in Sources */,
+				5725BC8C1CBEDF3B007988BC /* PracticeQuizModeController.swift in Sources */,
+				64B33F451C9D4AEB006C3510 /* CustomViewController.swift in Sources */,
+				64B33F4D1C9D4C19006C3510 /* QuizOptionsController.swift in Sources */,
+				64B33F4F1C9D4E38006C3510 /* QuestionSet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64B33F261C9D4A6D006C3510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B33F271C9D4A6D006C3510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64B33F2B1C9D4A6D006C3510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B33F2C1C9D4A6D006C3510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64B33F3A1C9D4A6D006C3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64B33F3B1C9D4A6D006C3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64B33F3D1C9D4A6D006C3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AccentTrainer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexter.accenttrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		64B33F3E1C9D4A6D006C3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AccentTrainer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexter.accenttrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64B33F1A1C9D4A6C006C3510 /* Build configuration list for PBXProject "AccentTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B33F3A1C9D4A6D006C3510 /* Debug */,
+				64B33F3B1C9D4A6D006C3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B33F3C1C9D4A6D006C3510 /* Build configuration list for PBXNativeTarget "AccentTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B33F3D1C9D4A6D006C3510 /* Debug */,
+				64B33F3E1C9D4A6D006C3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64B33F171C9D4A6C006C3510 /* Project object */;
+}
